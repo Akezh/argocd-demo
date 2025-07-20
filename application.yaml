@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/Akezh/argocd-demo.git
     targetRevision: HEAD # the last commit in a repo
-    path: guestbook
+    path: dev
 
   destination:
     server: https://kubernetes.default.svc
